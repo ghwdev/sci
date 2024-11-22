@@ -1,0 +1,241 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(120deg, rgb(44, 4, 44), rgb(73, 0, 0), black);
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.op, .introducao{
+    position: relative;
+    top: -2%;
+    opacity: 0.4;
+    height: 50vh;
+    width: 30vw;
+    mask-image: linear-gradient(120deg, rgb(68, 0, 0), rgb(0, 0, 0));
+}
+h1{
+      font-family: "Ga Maamli", sans-serif;
+    margin-bottom: 20px;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.ex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#pi{
+    max-width: 50%;
+    font-size: 40px;
+    margin-right: 10vw;
+}
+#verissimo{
+    height: 70vh;
+    width: 30vw;
+}
+h2{
+    font-family: "Sour Gummy", serif;
+    color: aliceblue;
+    font-size: 60px;
+}
+.explicacao{
+    position: relative;
+    top: -40%;
+    display: none;
+}
+.amostra{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -93%;
+    display: none;
+}
+.swiper{
+    display: block;
+    width: 80vw;
+    height: 80vh;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    
+}
+.swiper-slide>p{
+    position: relative;
+    left: 8%;
+    max-width: 80%;
+}
+.swiper-slide>img{
+    border-radius: 30px;
+    height: 40vh;
+}
+.cont , .cont1{
+    position: relative;
+    top: 60px;
+    left: 35%;
+    height: 67px;
+    width: 71px;
+    background-color:
+    hsla(2, 93%, 38%, 0.616);
+    border-radius:50%;
+    font-size:12px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pc{
+    display: flex;
+
+}
+#aga , #aga1{
+    position: relative;
+    left: 20%;
+}
+.elements{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -147%;
+    display: none;
+}  
+.pos{
+display:none;
+}
+    input{
+        width: 80vw;
+        height:10vh ;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 25px;
+        background-color: rgba(0, 0, 0, 0.486);
+        color: aliceblue;
+
+    }
+    button{
+        width: 60vw;
+        height:10vh ;
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.808);
+     font-size: 25px;
+        color: aliceblue;
+    }
+    p{
+        font-size: 22px;
+        font-family: "Sour Gummy", serif;
+    }
+    @media (max-width:500px) {
+        .op, .introducao{
+            position: relative;
+            top: -2%;
+            opacity: 0.4;
+            height: 50vh;
+            left: 5%;
+            width: 60vw;
+            mask-image: linear-gradient(120deg, rgb(68, 0, 0), rgb(0, 0, 0));
+        }
+        #pi{
+            max-width: 50%;
+            font-size: 18px;
+            margin-right: 10vw;
+        }
+        #verissimo{
+            height: 50vh;
+            width: 50vw;
+        }
+        h2{
+            font-size: 30px;
+        }
+        .amostra{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: -67%;
+            display: none;
+        }
+        .swiper{
+            display: block;
+            width: 80vw;
+            height: 100vh;
+        }
+        .swiper-slide{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            text-align: center;
+            color: aliceblue;
+            font-size: 18px;
+            
+        }
+        .swiper-slide>p{
+            position: relative;
+            left: 15%;
+            font-size: 14px;
+            max-width: 70%;
+        }
+        .swiper-slide>img{
+            border-radius: 30px;
+            height: 30vh;
+        }
+        #aga , #aga1{
+            position: relative;
+            left: 2%;
+        }
+        .cont , .cont1{
+            position: relative;
+            top: 60px;
+            left: -2%;
+            height: 37px;
+            width: 41px;
+            background-color:
+            hsla(2, 93%, 38%, 0.616);
+            border-radius:50%;
+            font-size:12px;
+            text-align:center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .elements{
+            font-size: 16px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: -121%;
+            display: none;
+        }  
+        .elements>h2{
+       
+            position: relative;
+left: -3%;
+        }
+    
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(120deg, rgb(44, 4, 44), rgb(73, 0, 0), black);
+    height: 115vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    }
